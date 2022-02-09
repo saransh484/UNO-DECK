@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "child-process": "^1.0.2",
+    "node-gyp": "^8.4.1",
+    "prompt-sync": "^4.2.0",
+    "serialport": "^9.2.8"
+  },
+  "name": "uno-deck",
+  "version": "0.0.1",
+  "description": "simple serial port stream deck using arduino uno",
+  "main": "index.js",
+  "preferGlobal": true,
+  "bin": {
+    "serial-port-read-js": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "saransh bhatnagar",
+  "license": "ISC",
+  "devDependencies": {}
+}
